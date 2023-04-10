@@ -3,6 +3,8 @@
 Install sra toolkit:
 
   * Download sra toolkit:
+    Ubuntu Linux 64 bit architecture - non-sudo tar archive from `https://github.com/ncbi/sra-tools/wiki/01.-Downloading-SRA-Toolkit`
+    or
   `wget --output-document sratoolkit.tar.gz https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz`
 
   * Extract the contents 
