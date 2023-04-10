@@ -3,17 +3,17 @@
 Install sra toolkit:
 
 Download sra toolkit:
-  wget --output-document sratoolkit.tar.gz https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
+  `wget --output-document sratoolkit.tar.gz https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz`
 
 Extract the contents 
-  tar -vxzf sratoolkit.tar.gz
+  `tar -vxzf sratoolkit.tar.gz`
 
 Go to where the binaries are
-  cd sratoolkit.tar.gz/bin
-  pwd
+  `cd sratoolkit.tar.gz/bin`
+  `pwd`
 
 Append the path to the binaries to your PATH environment variable:
-  <export PATH=$PATH:$PWD/sratoolkit.3.0.0-mac64/bin>
+  export PATH=$PATH:$PWD/sratoolkit.3.0.0-mac64/bin
   
 Verify that the binaries will be found by the shell:
   which fastq-dump
